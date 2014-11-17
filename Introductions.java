@@ -4,7 +4,7 @@ public class Introductions {
 
   public static void main(String[] args) {
     Console console = System.console();
-    String firstName = "Colin";
+    String firstName = console.readLine("What is your name?  ");
     // Variable names in Java are defined in camel case
     console.printf("Hello, my name is %s\n", firstName);
     // printf or print formated allows escape sequences and variables in
